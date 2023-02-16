@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Scroll out -->
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <!-- Icon -->
+    <script
+      src="https://kit.fontawesome.com/800665659c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Boulangerie HAL</title>
+  </head>
+  <body>
+    <div class="home__effect"></div>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <button class="navbar__toggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#address">Address</a></li>
+      </ul>
+    </nav>
+    <!-- home -->
+    <section id="home" class="home">
+      <img class="home__logo" src="./images/logo.png" alt="ロゴ" />
+    </section>
+    <!-- About -->
+    <section id="about" class="section__container" data-scroll>
+      <div class="about__description">
+        <h2 class="about__title">
+          お客様に幸せを感じていただけるような<br />
+          おいしいパンと空間を提供
+        </h2>
+        <p>
+          『おいしいパンを焼く』ための素材、商品開発と体制作り、
+          お客様にリーズナブルと思っていただける価格であること。
+          そして、豊富な品揃えであること。お客様に「今日は何を食べようかな」
+          というパンを選ぶ楽しさとワクワク感を感じていただきたいという思いから、
+          お店ではパンが約150種類、洋菓子が約50種類と常時揃えるようにしています。
+        </p>
+      </div>
+      <div class="about__image">
+        <img src="./images/tenpo04.jpg" alt="店の写真" />
+      </div>
+    </section>
+    <!-- lazy -->
+    <div class="lazy" data-scroll>
+      <img src="./images/image017.jpg" alt="パンの写真" />
+    </div>
+    <!-- menu -->
+    <section id="menu" class="section__container">
+      <h2><span class="gold">・</span>Menu<span class="gold">・</span></h2>
+      <div class="menu__all">
+        <div class="menu" data-scroll>
+          <img src="./images/pain001.jpg" alt="" />
+          <h3 class="menu__title">フワス　ヴェルヴェンヌ</h3>
+          <p class="menu__description">
+            オーベルニュ地方の名産ハーブ「ヴェルヴェンヌ」にオレンジ、レモンを合わせ　香り高いブリオッシュに仕上げています。
+          </p>
+        </div>
+        <div class="menu" data-scroll>
+          <img src="./images/pain002.jpg" alt="" />
+          <h3 class="menu__title">
+            ローストビーフとフルムダンベールチーズのサンドイッチ
+          </h3>
+          <p class="menu__description">
+            名産フルムダンベールチーズを使った濃厚でクリーミーなソースにローストビーフを合わせたサンドイッチです。林檎を添えて爽やかに仕上げています。
+          </p>
+        </div>
+        <div class="menu" data-scroll>
+          <img src="./images/pain003.jpg" alt="" />
+          <h3 class="menu__title">ソーセージとレンズ豆のタルティーヌ</h3>
+          <p class="menu__description">
+            レンズ豆と相性の良い、ソーセージとマッシュポテトをのせたボリューム満点のタルティーヌです。
+          </p>
+        </div>
+        <div class="menu" data-scroll>
+          <img src="./images/pain004.jpg" alt="" />
+          <h3 class="menu__title">塩豚とルピュイ産レンズ豆煮込みのパイ</h3>
+          <p class="menu__description">
+            オーベルニュ地方ルピュイ名産のレンズ豆を塩豚・ベーコン・香味野菜と煮込む郷土料理のパイです。塩豚の旨みを吸収したレンズ豆をパイで包んで焼き上げています。
+          </p>
+        </div>
+        <div class="menu" data-scroll>
+          <img src="./images/pain005.jpg" alt="" />
+          <h3 class="menu__title">ケークサレ</h3>
+          <p class="menu__description">
+            昔からある郷土料理です。スイスチャード（葉野菜)を生地に練り込みベーコンとプルーンを加えた甘塩っぱいケークサレです。
+          </p>
+        </div>
+        <div class="menu" data-scroll>
+          <img src="./images/pain006.jpg" alt="" />
+          <h3 class="menu__title">郷土料理「トリュファード」のクロワッサン</h3>
+          <p class="menu__description">
+            ジャガイモ、玉ねぎ、スモークベーコンを名産トムフレッシュチーズと炒める郷土料理「トリュファード」をクロワッサン生地に合わせて香ばしく仕上げています。
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- lazy -->
+    <div class="lazy" data-scroll="">
+      <img src="./images/image022.jpg" alt="パンの写真" />
+    </div>
+    <!-- news -->
+    <section id="news" class="section__container" data-scroll>
+      <h2><span class="gold">・</span>News<span class="gold">・</span></h2>
+      <ul class="news__all">
+        <li class="news__list">
+          <div class="news__bg"></div>
+          <a href="#">
+            <span class="news__date">2018.10.11</span>
+            <span class="news__title">
+              新規サイトオープン企画 Webサイトを見て特製ケーキをもらおう!</span
+            >
+          </a>
+        </li>
+        <li class="news__list">
+          <div class="news__bg"></div>
+          <a href="#">
+            <span class="news__date">2018.10.11</span>
+            <span class="news__title"> 新作マカロン登場!!</span>
+          </a>
+        </li>
+        <li class="news__list">
+          <div class="news__bg"></div>
+          <a href="#">
+            <span class="news__date">2018.10.10</span>
+            <span class="news__title">
+              お待たせ致しました!カフェ・ド・パリWebサイトをオープン致しました。</span
+            >
+          </a>
+        </li>
+      </ul>
+    </section>
+    <!-- lazy -->
+    <div class="lazy" data-scroll="">
+      <img src="./images/image030.jpg" alt="パンの写真" />
+    </div>
+    <!-- address -->
+    <div class="hr"></div>
+    <section id="address">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1621.0908729024638!2d139.69964074330827!3d35.64789358540413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b45f5311ed1%3A0x12987f54caa1ee65!2z44CSMTUwLTAwMzMg5p2x5Lqs6YO95riL6LC35Yy654y_5qW955S677yS77yZ4oiS77yR77yY!5e0!3m2!1sja!2sjp!4v1433666443406"
+        frameborder="0"
+        style="border: 0; filter: grayscale(1)"
+      ></iframe>
+      <div class="address__description">
+        <!-- <h3>Boulangerie HAL</h3> -->
+        <h3>LOCATION</h3>
+        <p class="address__text">
+          営業時間<br />
+          10:00～20:00<br /><br />
+
+          東急東横線<br />［代官山駅］徒歩3分 <br />
+
+          東急東横線・地下鉄日比谷線<br />［中目黒駅］徒歩7分 <br />
+
+          JR山手線・JR埼京線・地下鉄日比谷線<br />［恵比寿駅］徒歩10分
+        </p>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <p>
+        東京都渋谷区猿楽町29-18 <br />
+        電話：03-3344-1010
+      </p>
+      <img src="./images/logo.png" alt="ロゴ" />
+      <small>&copy; 2023 copyright Jaehyeon Kim</small>
+    </footer>
+    <script>
+      ScrollOut({
+        once: true,
+      });
+    </script>
+    <script src="./main.js" defer></script>
+  </body>
+</html>
